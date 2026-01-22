@@ -74,7 +74,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -87,7 +87,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 639046725707262855
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,9 +123,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sala01 (1)
+  - name: Sala
     originalName: 
-    pivot: {x: 0.5671141, y: -0.75342464}
+    pivot: {x: 0.5, y: -0.75342464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,9 +133,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 298
+      width: 258
       height: 292
-    spriteID: 8c7aaa269ef4dbb41bac96e42aa73ee5
+    spriteID: 3e1766e81c5d9b046bdb649af82f083e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,375 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Crate Copy 2
+    originalName: 
+    pivot: {x: 1.9047619, y: -8.380953}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 387
+      y: 203
+      width: 42
+      height: 42
+    spriteID: 62a872f377ef2ff4f93243b603ee00ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 387, y: 203}
+  - name: Crate
+    originalName: 
+    pivot: {x: 2.904762, y: -8.380953}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 437
+      y: 203
+      width: 42
+      height: 42
+    spriteID: 8f23d08aedaf80244b191fc9d1c9cf2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 437, y: 203}
+  - name: Crate Copy
+    originalName: 
+    pivot: {x: 2.904762, y: -9.380953}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 387
+      y: 253
+      width: 42
+      height: 42
+    spriteID: cb85ab5b4985f3a438c085a4db93f8ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 387, y: 253}
+  - name: Barrel
+    originalName: 
+    pivot: {x: 2.9642859, y: -8.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 437
+      y: 253
+      width: 28
+      height: 32
+    spriteID: 0e4a053d5be54ab48ab1a7cdd7e2c69b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 437, y: 253}
+  - name: Container
+    originalName: 
+    pivot: {x: -0.1651376, y: -5.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 270
+      y: 203
+      width: 109
+      height: 54
+    spriteID: f552f8a50a8cef3409e97572e7269101
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 270, y: 203}
+  - name: Paper/Clipboard
+    originalName: 
+    pivot: {x: 0.46710527, y: -1.5078534}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 270
+      y: 4
+      width: 152
+      height: 191
+    spriteID: 1ef1bb889dec0a04087d3c8b15c1a8a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 270, y: 4}
+  - name: Paper Copy
+    originalName: 
+    pivot: {x: 0.51968503, y: -6.818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 304
+      width: 127
+      height: 44
+    spriteID: aebbc62da607739428801b46b73012aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 304}
+  - name: Paper Copy Copy
+    originalName: 
+    pivot: {x: 7.714286, y: -22.625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 253
+      width: 14
+      height: 16
+    spriteID: 503b0150be650cc40bf2bd03d88419c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 253}
+  - name: Andrew
+    originalName: 
+    pivot: {x: 9.941176, y: -9.435898}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 487
+      y: 203
+      width: 17
+      height: 39
+    spriteID: 252ec3ccec1ebf84fa55612b3e94dee2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 487, y: 203}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1025725028
-    name: Sala01 (1)
-    layerFlags: 0
+    guid: 2621555
+    name: Sala
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sala01 (1)
+    - name: Sala
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 127
+        y: 220
+        width: 258
+        height: 292
+      spriteId: 3e1766e81c5d9b046bdb649af82f083e
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: -1359189516
+    name: Crate Copy 2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Crate Copy 2
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 176
+        y: 352
+        width: 42
+        height: 42
+      spriteId: 62a872f377ef2ff4f93243b603ee00ce
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: 1494428081
+    name: Crate
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Crate
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 134
+        y: 352
+        width: 42
+        height: 42
+      spriteId: 8f23d08aedaf80244b191fc9d1c9cf2a
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: 1577444794
+    name: Crate Copy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Crate Copy
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 134
+        y: 394
+        width: 42
+        height: 42
+      spriteId: cb85ab5b4985f3a438c085a4db93f8ca
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 140453874
+    name: Barrel
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Barrel
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 173
+        y: 280
+        width: 28
+        height: 32
+      spriteId: 0e4a053d5be54ab48ab1a7cdd7e2c69b
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: 363867727
+    name: Container
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Container
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 274
+        y: 318
+        width: 109
+        height: 54
+      spriteId: f552f8a50a8cef3409e97572e7269101
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: -1943526907
+    name: Paper/Clipboard
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Paper/Clipboard
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 185
+        y: 288
+        width: 152
+        height: 191
+      spriteId: 1ef1bb889dec0a04087d3c8b15c1a8a6
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: 29016375
+    name: Paper Copy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Paper Copy
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 190
+        y: 300
+        width: 127
+        height: 44
+      spriteId: aebbc62da607739428801b46b73012aa
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 8
+    guid: 357304710
+    name: Paper Copy Copy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Paper Copy Copy
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 148
+        y: 362
+        width: 14
+        height: 16
+      spriteId: 503b0150be650cc40bf2bd03d88419c0
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 9
+    guid: 547607531
+    name: Andrew
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Andrew
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 87
-        y: 220
-        width: 298
-        height: 292
-      spriteId: 8c7aaa269ef4dbb41bac96e42aa73ee5
+        y: 368
+        width: 17
+        height: 39
+      spriteId: 252ec3ccec1ebf84fa55612b3e94dee2
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -169,6 +520,54 @@ ScriptedImporter:
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
