@@ -186,6 +186,27 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 352, y: 4}
+  - name: Potion
+    originalName: 
+    pivot: {x: 6.5, y: -7.909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 51
+      width: 16
+      height: 22
+    spriteID: fb268cd9ffc18244c97aaa386b6073a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 51}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -206,7 +227,7 @@ ScriptedImporter:
       spriteId: b85555504d209784c98ca3b3fbe51fff
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 1
+  - layerIndex: 2
     guid: -464202897
     name: Table 1
     layerFlags: 3
@@ -224,7 +245,7 @@ ScriptedImporter:
       spriteId: 5d2db1ffd2142bc4bace0ded15faf8f4
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 2
+  - layerIndex: 3
     guid: 547607531
     name: Andrew
     layerFlags: 3
@@ -240,6 +261,24 @@ ScriptedImporter:
         width: 17
         height: 39
       spriteId: ef28cfbc330faf548ba0b7b3354928b2
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: 1932405679
+    name: Potion
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Potion
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 152
+        y: 174
+        width: 16
+        height: 22
+      spriteId: fb268cd9ffc18244c97aaa386b6073a4
     linkedCells: []
     parentIndex: -1
   platformSettings:

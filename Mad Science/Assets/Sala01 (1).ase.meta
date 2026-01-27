@@ -152,8 +152,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 387
-      y: 203
+      x: 4
+      y: 366
       width: 42
       height: 42
     spriteID: 62a872f377ef2ff4f93243b603ee00ce
@@ -164,7 +164,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 387, y: 203}
+    uvTransform: {x: 4, y: 366}
   - name: Crate
     originalName: 
     pivot: {x: 2.904762, y: -8.380953}
@@ -173,8 +173,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 437
-      y: 203
+      x: 54
+      y: 366
       width: 42
       height: 42
     spriteID: 8f23d08aedaf80244b191fc9d1c9cf2a
@@ -185,7 +185,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 437, y: 203}
+    uvTransform: {x: 54, y: 366}
   - name: Crate Copy
     originalName: 
     pivot: {x: 2.904762, y: -9.380953}
@@ -194,8 +194,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 387
-      y: 253
+      x: 104
+      y: 366
       width: 42
       height: 42
     spriteID: cb85ab5b4985f3a438c085a4db93f8ca
@@ -206,7 +206,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 387, y: 253}
+    uvTransform: {x: 104, y: 366}
   - name: Barrel
     originalName: 
     pivot: {x: 2.9642859, y: -8.75}
@@ -215,8 +215,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 437
-      y: 253
+      x: 154
+      y: 366
       width: 28
       height: 32
     spriteID: 0e4a053d5be54ab48ab1a7cdd7e2c69b
@@ -227,7 +227,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 437, y: 253}
+    uvTransform: {x: 154, y: 366}
   - name: Container
     originalName: 
     pivot: {x: -0.1651376, y: -5.888889}
@@ -236,8 +236,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 270
-      y: 203
+      x: 4
+      y: 304
       width: 109
       height: 54
     spriteID: f552f8a50a8cef3409e97572e7269101
@@ -248,19 +248,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 270, y: 203}
+    uvTransform: {x: 4, y: 304}
   - name: Paper/Clipboard
     originalName: 
-    pivot: {x: 0.46710527, y: -1.5078534}
+    pivot: {x: 5.071429, y: -20.57143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 270
-      y: 4
-      width: 152
-      height: 191
+      x: 237
+      y: 366
+      width: 14
+      height: 14
     spriteID: 1ef1bb889dec0a04087d3c8b15c1a8a6
     spriteBone: []
     spriteOutline: []
@@ -269,7 +269,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 270, y: 4}
+    uvTransform: {x: 237, y: 366}
   - name: Paper Copy
     originalName: 
     pivot: {x: 0.51968503, y: -6.818182}
@@ -278,7 +278,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
+      x: 121
       y: 304
       width: 127
       height: 44
@@ -290,7 +290,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 304}
+    uvTransform: {x: 121, y: 304}
   - name: Paper Copy Copy
     originalName: 
     pivot: {x: 7.714286, y: -22.625}
@@ -299,8 +299,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 473
-      y: 253
+      x: 215
+      y: 366
       width: 14
       height: 16
     spriteID: 503b0150be650cc40bf2bd03d88419c0
@@ -311,7 +311,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 473, y: 253}
+    uvTransform: {x: 215, y: 366}
   - name: Andrew
     originalName: 
     pivot: {x: 9.941176, y: -9.435898}
@@ -320,8 +320,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 487
-      y: 203
+      x: 190
+      y: 366
       width: 17
       height: 39
     spriteID: 252ec3ccec1ebf84fa55612b3e94dee2
@@ -332,7 +332,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 487, y: 203}
+    uvTransform: {x: 190, y: 366}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -456,8 +456,8 @@ ScriptedImporter:
       cellRect:
         x: 185
         y: 288
-        width: 152
-        height: 191
+        width: 14
+        height: 14
       spriteId: 1ef1bb889dec0a04087d3c8b15c1a8a6
     linkedCells: []
     parentIndex: -1
