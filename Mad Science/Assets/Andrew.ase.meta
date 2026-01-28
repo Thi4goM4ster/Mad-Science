@@ -74,7 +74,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -87,7 +87,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 639052077386361560
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,9 +123,51 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Andrew
+  - name: Parado
     originalName: 
-    pivot: {x: 0.49382716, y: -0.03409091}
+    pivot: {x: 0.5294118, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 4
+      width: 17
+      height: 39
+    spriteID: efe82e79ac2e8c443a055cefbdda427a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 4}
+  - name: "Parado tr\xC3\xA1s"
+    originalName: 
+    pivot: {x: 0.4705883, y: -0.10256411}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 51
+      width: 17
+      height: 39
+    spriteID: 675e16f6825b80a42896536e952aa78d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 51}
+  - name: "P\xC3\xA9 direito frente"
+    originalName: 
+    pivot: {x: 2.3529413, y: -1.2750001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,9 +175,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 81
-      height: 88
-    spriteID: 5f13d479159933845a3d23135442bb7c
+      width: 17
+      height: 40
+    spriteID: 7539665cfdc84f342ab5307810cac70e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +186,255 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: "P\xC3\xA9 esquerdo frente"
+    originalName: 
+    pivot: {x: -1.4117647, y: -1.2750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 52
+      width: 17
+      height: 40
+    spriteID: 6024a6c6f28b97444813b44f715dd7d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 52}
+  - name: "P\xC3\xA9 direito frente tr\xC3\xA1s"
+    originalName: 
+    pivot: {x: 2.3529413, y: -0.075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 17
+      height: 40
+    spriteID: 3867e1f33c056274094cccced670a134
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: "P\xC3\xA9 esquerdo frente tr\xC3\xA1s"
+    originalName: 
+    pivot: {x: -1.4117647, y: -0.075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 52
+      width: 17
+      height: 40
+    spriteID: 3302f5a82f0e08e40b7410a3475edcda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 52}
+  - name: Parado 2
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 4
+      width: 17
+      height: 39
+    spriteID: 7b3943491f58c7149b7e8427326f6fd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 4}
+  - name: "Parado tr\xC3\xA1s 2"
+    originalName: 
+    pivot: {x: 0.4705883, y: -0.10256411}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 51
+      width: 17
+      height: 39
+    spriteID: c12df678bf031bd4eb437a19d2d7ef8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 51}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 547607531
-    name: Andrew
-    layerFlags: 0
+    guid: 751918261
+    name: Parado
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Andrew
+    - name: Parado
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 52
+        width: 17
+        height: 39
+      spriteId: efe82e79ac2e8c443a055cefbdda427a
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: 1356017014
+    name: "Parado tr\xC3\xA1s"
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "Parado tr\xC3\xA1s"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 4
+        width: 17
+        height: 39
+      spriteId: 675e16f6825b80a42896536e952aa78d
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 1439699806
+    name: "P\xC3\xA9 direito frente"
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "P\xC3\xA9 direito frente"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 51
+        width: 17
+        height: 40
+      spriteId: 7539665cfdc84f342ab5307810cac70e
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: 585120098
+    name: "P\xC3\xA9 esquerdo frente"
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "P\xC3\xA9 esquerdo frente"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 51
+        width: 17
+        height: 40
+      spriteId: 6024a6c6f28b97444813b44f715dd7d5
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: 2130814519
+    name: "P\xC3\xA9 direito frente tr\xC3\xA1s"
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "P\xC3\xA9 direito frente tr\xC3\xA1s"
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 8
         y: 3
-        width: 81
-        height: 88
-      spriteId: 5f13d479159933845a3d23135442bb7c
+        width: 17
+        height: 40
+      spriteId: 3867e1f33c056274094cccced670a134
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: -1020333039
+    name: "P\xC3\xA9 esquerdo frente tr\xC3\xA1s"
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "P\xC3\xA9 esquerdo frente tr\xC3\xA1s"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 3
+        width: 17
+        height: 40
+      spriteId: 3302f5a82f0e08e40b7410a3475edcda
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: 918759003
+    name: Parado 2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Parado 2
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 52
+        width: 17
+        height: 39
+      spriteId: 7b3943491f58c7149b7e8427326f6fd8
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: 824305724
+    name: "Parado tr\xC3\xA1s 2"
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "Parado tr\xC3\xA1s 2"
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 4
+        width: 17
+        height: 39
+      spriteId: c12df678bf031bd4eb437a19d2d7ef8a
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -169,6 +442,54 @@ ScriptedImporter:
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0

@@ -1,36 +1,37 @@
 using UnityEngine;
 
-public class MovimentoPlayer : MonoBehaviour
+public class MovimentoTransform : MonoBehaviour
 {
-    [Header("Velocidade")]
     public float velocidade = 5f;
+    public Animator animator; // Arraste seu Animator para cá no Inspector se tiver animação
 
-    private Rigidbody2D rb;
-    private Vector2 movimento;
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    // Update é chamado uma vez por frame (bom para Input)
     void Update()
     {
-        // Pega as teclas setinhas ou WASD
-        // Input.GetAxisRaw faz o movimento ser "seco" (para na hora que solta).
-        // Se quiser que ele deslize um pouco, use apenas Input.GetAxis.
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        // Pega o input (teclas)
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
 
-        // Cria um vetor com a direção (X e Y) e Normaliza
-        // .normalized garante que andar na diagonal não seja mais rápido que andar reto
-        movimento = new Vector2(moveX, moveY).normalized;
-    }
+        // Cria o vetor de direção
+        Vector3 direcao = new Vector3(x, y, 0).normalized;
 
-    // FixedUpdate é chamado em intervalos fixos (obrigatório para Física/Rigidbody)
-    void FixedUpdate()
-    {
-        // Move o personagem mudando a velocidade do corpo rígido
-        rb.linearVelocity = movimento * velocidade;
+        // Verifica se há movimento para evitar cálculos desnecessários
+        if (direcao != Vector3.zero)
+        {
+            // MOVE O PERSONAGEM
+            // Space.World garante que ele ande nos eixos do mundo, não do personagem
+            transform.Translate(direcao * velocidade * Time.deltaTime);
+
+            // ATUALIZA A ANIMAÇÃO (Opcional, se você já tiver configurado)
+            /*if (animator != null)
+            {
+                animator.SetFloat("InputX", x);
+                animator.SetFloat("InputY", y);
+                animator.SetBool("Andando", true);
+            }*/
+        }
+        else
+        {
+            //if (animator != null) animator.SetBool("Andando", false);
+        }
     }
 }

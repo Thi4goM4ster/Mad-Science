@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 1530c00a0de4f1243a18a3c93dc8b9a2
+guid: 6224e1285f619ce4eb647c9ff23fb328
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 85849624056765992
-    second: toppng.com-text-box-pixel-art-cupcake-601x211_0
+      213: -5848915396250941393
+    second: Andrew Side View_0
+  - first:
+      213: 4719882161051468983
+    second: Andrew Side View_1
+  - first:
+      213: -6149272838552164989
+    second: Andrew Side View_2
+  - first:
+      213: 9039370645821990833
+    second: Andrew Side View_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toppng.com-text-box-pixel-art-cupcake-601x211_0
+      name: Andrew Side View_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 835
-        height: 293
+        x: 44
+        y: 54
+        width: 11
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82e110a37cff03100800000000000000
-      internalID: 85849624056765992
+      spriteID: f28462d9f6a74dea0800000000000000
+      internalID: -5848915396250941393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andrew Side View_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 54
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b40d2781d3608140800000000000000
+      internalID: 4719882161051468983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andrew Side View_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 12
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385e32ffee469aaa0800000000000000
+      internalID: -6149272838552164989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Andrew Side View_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 12
+        width: 11
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b72051b5bb427d70800000000000000
+      internalID: 9039370645821990833
       vertices: []
       indices: 
       edges: []
@@ -160,8 +235,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      toppng.com-text-box-pixel-art-cupcake-601x211_0: 85849624056765992
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
