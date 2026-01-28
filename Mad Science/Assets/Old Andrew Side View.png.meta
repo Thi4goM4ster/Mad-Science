@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Andrew Side View_0: -5848915396250941393
+      Andrew Side View_1: 4719882161051468983
+      Andrew Side View_2: -6149272838552164989
+      Andrew Side View_3: 9039370645821990833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
