@@ -57,6 +57,7 @@ public class DialogoComSetaTexto : MonoBehaviour
     void FecharDialogo()
     {
         dialogoAberto = false;
+    if  (painelDialogo!=null)
         painelDialogo.SetActive(false);
         indexAtual = 0;
     }
