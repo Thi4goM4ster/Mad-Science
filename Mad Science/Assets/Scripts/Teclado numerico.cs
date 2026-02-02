@@ -16,6 +16,7 @@ public class SistemaSenha : MonoBehaviour
     // Usamos 'MonoBehaviour' para aceitar qualquer nome de script que você criou
     public MonoBehaviour scriptMovimentoPlayer; 
 
+    public Animator Andrew;
     private bool PainelAberto = false;
     private void Start()
     {
@@ -25,13 +26,16 @@ public class SistemaSenha : MonoBehaviour
         campoDeTexto.onSubmit.AddListener(delegate { ChecarSenha(); });
     }
 
-    void update(){
-        if (PainelAberto && Input.GetKeyDown(KeyCode.Escape)){
+    private void Update(){
+        if (/*PainelAberto && */Input.GetKeyDown(KeyCode.Escape)){
+            Debug.Log("pressionando ESC");
             FecharPainel();
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+                    Debug.Log("Tentando parar a animação");
+
         if (other.CompareTag("Player"))
         {
             PainelAberto = true;
@@ -41,9 +45,17 @@ public class SistemaSenha : MonoBehaviour
             campoDeTexto.text = ""; 
             campoDeTexto.ActivateInputField(); 
 
+        if (Andrew != null){
+            
+            //Andrew.SetFloat("InputX",0);
+            //Andrew.SetFloat("InputY",0);
+            Andrew.enabled = false;
+            Andrew.Play("Parado");
+        }
             // TRAVA O PLAYER (Desliga o script de movimento)
             if (scriptMovimentoPlayer != null)
                 scriptMovimentoPlayer.enabled = false;
+                
         }
     }
 
@@ -74,6 +86,7 @@ public class SistemaSenha : MonoBehaviour
 
     void FecharPainel()
     {
+        Andrew.enabled = true;
         PainelAberto = false;
         if (painelSenha != null)
         painelSenha.SetActive(false);
