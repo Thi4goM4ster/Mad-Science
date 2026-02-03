@@ -8,6 +8,7 @@ public class CofreDigital2 : MonoBehaviour
     public GameObject itemParaRevelar; // O pedaço do quadro que está escondido dentro
     public GameObject portaDoCofre;    // A sprite da porta fechada (opcional, para sumir com ela)
 
+    public Animator Andrew;
     [Header("UI")]
     public GameObject painelSenha;
     public TMP_InputField campoDeTexto;
@@ -32,6 +33,16 @@ public class CofreDigital2 : MonoBehaviour
         {
             AbrirPainel();
         }
+                if (Andrew != null){
+            
+            //Andrew.SetFloat("InputX",0);
+            //Andrew.SetFloat("InputY",0);
+            Andrew.enabled = false;
+            Andrew.Play("Parado");
+        }
+            // TRAVA O PLAYER (Desliga o script de movimento)
+            if (scriptMovimentoPlayer != null)
+                scriptMovimentoPlayer.enabled = false;
     }
 
     private void Update()
@@ -72,5 +83,6 @@ public class CofreDigital2 : MonoBehaviour
     {
         painelSenha.SetActive(false);
         if (scriptMovimentoPlayer != null) scriptMovimentoPlayer.enabled = true;
+            Andrew.enabled = true;
     }
 }

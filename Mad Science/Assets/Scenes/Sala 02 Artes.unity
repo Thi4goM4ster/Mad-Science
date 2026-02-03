@@ -936,6 +936,7 @@ MonoBehaviour:
   senhaDesteCofre: 1992
   itemParaRevelar: {fileID: 577228597}
   portaDoCofre: {fileID: 1041734389}
+  Andrew: {fileID: 729895847}
   painelSenha: {fileID: 829856283}
   campoDeTexto: {fileID: 829856285}
   scriptMovimentoPlayer: {fileID: 729895850}
@@ -1120,6 +1121,7 @@ MonoBehaviour:
   senhaDesteCofre: 201
   itemParaRevelar: {fileID: 718517515}
   portaDoCofre: {fileID: 1715937434}
+  Andrew: {fileID: 729895847}
   painelSenha: {fileID: 1637902117}
   campoDeTexto: {fileID: 1637902119}
   scriptMovimentoPlayer: {fileID: 729895850}
