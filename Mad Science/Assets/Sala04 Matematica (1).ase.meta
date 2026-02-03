@@ -125,7 +125,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Sala
     originalName: 
-    pivot: {x: 0.4738372, y: -0.6202532}
+    pivot: {x: 0.5, y: -0.6202532}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,7 +133,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 344
+      width: 326
       height: 316
     spriteID: f801f399c9a726b4cb52df196898266f
     spriteBone: []
@@ -201,7 +201,7 @@ ScriptedImporter:
       cellRect:
         x: 93
         y: 196
-        width: 344
+        width: 326
         height: 316
       spriteId: f801f399c9a726b4cb52df196898266f
     linkedCells: []
