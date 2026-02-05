@@ -6,6 +6,13 @@ public class PortaFase : MonoBehaviour
     [Header("Configuração")]
     [Tooltip("Escreva aqui o nome EXATO da cena para onde quer ir")]
     public string nomeDaProximaCena;
+    private LevelLoader loader;
+
+    private void Start()
+    {
+        // Encontra o LevelLoader automaticamente na cena
+        loader = FindObjectOfType<LevelLoader>();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {

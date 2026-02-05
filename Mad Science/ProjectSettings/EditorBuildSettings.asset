@@ -29,6 +29,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sala Final.unity
     guid: cde8bfbafd74dc34ba0849be5b5b65de
+  - enabled: 1
+    path: Assets/Scenes/Sala Secreta.unity
+    guid: 1441f2b1871e1df43ba4d59233aac579
+  - enabled: 1
+    path: Assets/Scenes/Corredor de fuga.unity
+    guid: 6bbd24b82f6ff27458d93cfb0d5cd7ac
+  - enabled: 1
+    path: Assets/Scenes/Cutscene final bom.unity
+    guid: f9d9ccd49b100e94c9aa1da1e5cd948a
+  - enabled: 1
+    path: Assets/Scenes/Cutscene inicial.unity
+    guid: ce1d76aacc3b2864c890278897bc277a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
