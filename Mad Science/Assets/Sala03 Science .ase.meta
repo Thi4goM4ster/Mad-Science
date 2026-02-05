@@ -125,7 +125,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Sala
     originalName: 
-    pivot: {x: 0.47352943, y: -0.9692308}
+    pivot: {x: 0.5, y: -0.9692308}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,7 +133,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 340
+      width: 322
       height: 260
     spriteID: b85555504d209784c98ca3b3fbe51fff
     spriteBone: []
@@ -173,7 +173,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 352
+      x: 334
       y: 4
       width: 17
       height: 39
@@ -185,7 +185,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 352, y: 4}
+    uvTransform: {x: 334, y: 4}
   - name: Potion
     originalName: 
     pivot: {x: 6.5, y: -7.909091}
@@ -194,7 +194,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 352
+      x: 334
       y: 51
       width: 16
       height: 22
@@ -206,7 +206,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 352, y: 51}
+    uvTransform: {x: 334, y: 51}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -222,7 +222,7 @@ ScriptedImporter:
       cellRect:
         x: 95
         y: 252
-        width: 340
+        width: 322
         height: 260
       spriteId: b85555504d209784c98ca3b3fbe51fff
     linkedCells: []

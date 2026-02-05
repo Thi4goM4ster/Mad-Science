@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a5706e50539334abf6ebe288d7516a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horaCorreta: Amarelo
+  horaCorreta: pantanal
   scriptDaPorta: {fileID: 1114833825}
   painelInput: {fileID: 783766074}
   campoDeTexto: {fileID: 783766076}
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: Qual a cor da Amazonia?
+  m_Text: "Qual a bioma \xE9 Verde?"
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: Qual a cor do Pampa?
+  m_Text: "Qual a bioma \xE9 Laranja?"
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Qual a cor da Amazonia?
+  m_text: "Qual a bioma \xE9 Verde?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
   m_sharedMaterial: {fileID: 5442447105983059501, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
@@ -1094,7 +1094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a5706e50539334abf6ebe288d7516a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horaCorreta: Azul
+  horaCorreta: caatinga
   scriptDaPorta: {fileID: 1114833825}
   painelInput: {fileID: 1989753695}
   campoDeTexto: {fileID: 1989753697}
@@ -1278,7 +1278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a5706e50539334abf6ebe288d7516a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horaCorreta: Laranja
+  horaCorreta: pampa
   scriptDaPorta: {fileID: 1114833825}
   painelInput: {fileID: 343761058}
   campoDeTexto: {fileID: 343761060}
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a5706e50539334abf6ebe288d7516a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horaCorreta: Verde
+  horaCorreta: "amaz\xF4nia"
   scriptDaPorta: {fileID: 1114833825}
   painelInput: {fileID: 59218957}
   campoDeTexto: {fileID: 59218959}
@@ -2022,7 +2022,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: Qual a cor do Pantanal?
+  m_Text: "Qual a bioma \xE9 Amarelo?"
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -2535,7 +2535,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Qual a cor do Pampa?
+  m_text: "Qual a bioma \xE9 Laranja?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
   m_sharedMaterial: {fileID: 5442447105983059501, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
@@ -2692,7 +2692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Qual a cor do Pantanal?
+  m_text: "Qual a bioma \xE9 Amarelo?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
   m_sharedMaterial: {fileID: 5442447105983059501, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
@@ -3228,7 +3228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Qual a cor da Caatinga?
+  m_text: "Qual a bioma \xE9 Azul?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
   m_sharedMaterial: {fileID: 5442447105983059501, guid: a6cc091c352ccd244ae1178d12c39830, type: 2}
@@ -3954,7 +3954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee81d2b79e80da41a08a9bd466eef26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 3
+  velocidade: 5
   animator: {fileID: 1617267639}
 --- !u!212 &1617267643
 SpriteRenderer:
@@ -4801,7 +4801,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: Qual a cor da Caatinga?
+  m_Text: "Qual a bioma \xE9 Azul?"
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
