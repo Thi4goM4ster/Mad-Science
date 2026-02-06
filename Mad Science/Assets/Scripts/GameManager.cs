@@ -20,10 +20,18 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    public void NextLevel()
+    public void NextLevel(int N)
     {
-        StartCoroutine(LoadLevel());
+        if (N==0)
+        {
+            StartCoroutine(LoadLevel());
+        }
+        else
+        {
+            StartCoroutine(LoadLevel(N));
+        }
     }
+   
 
     IEnumerator LoadLevel()
     {
@@ -32,5 +40,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
         transitionAnim.SetTrigger("Start");
     }
-
+    IEnumerator LoadLevel(int numeroDaSala)
+    {
+        transitionAnim.SetTrigger("End");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadSceneAsync(numeroDaSala);
+        transitionAnim.SetTrigger("Start");
+    }
 }
