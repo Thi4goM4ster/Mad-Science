@@ -2483,7 +2483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDaProximaCena: Sala 06
-  N: 0
+  N: 6
 --- !u!61 &821010137
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4892,7 +4892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDaProximaCena: Sala Secreta
-  N: 0
+  N: 8
 --- !u!1 &1573265661
 GameObject:
   m_ObjectHideFlags: 0

@@ -6393,7 +6393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDaProximaCena: Sala 02 Artes
-  N: 0
+  N: 2
 --- !u!1 &2065736837
 GameObject:
   m_ObjectHideFlags: 0

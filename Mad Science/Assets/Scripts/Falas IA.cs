@@ -18,7 +18,7 @@ public class DialogoIA: MonoBehaviour
     void Start()
     {
         Debug.Log("START");
-         Invoke("AbrirDialogo",1.0f);
+         Invoke("AbrirDialogo",0.5f);
          //AbrirDialogo();
     }
     void Update()

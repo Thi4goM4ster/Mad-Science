@@ -12,8 +12,11 @@ public class GameManagerSecreto : MonoBehaviour
 
     [Header("Porta e Controle")]
     public GameObject portaSecreta;
+    public GameObject porta1;
+    public GameObject porta2;
+    public GameObject porta3;
     public MonoBehaviour scriptMovimentoPlayer; // Para travar o boneco lendo
-
+    public Animator Andrew;
     // Controle de Memória
     private int visitaAtual; // 0=Visita1, 1=Visita2, 2=Visita3, 3=Visita4
     private bool jaLeuTudoHoje = false; // Bloqueia ler a visita de amanhã hoje
@@ -33,6 +36,7 @@ public class GameManagerSecreto : MonoBehaviour
         // Se já completou tudo no passado, deixa a porta aberta
         if (visitaAtual >= 4 && portaSecreta != null)
         {
+            Debug.Log("visitaatual:"+visitaAtual);
             portaSecreta.SetActive(false);
         }
     }
@@ -41,7 +45,7 @@ public class GameManagerSecreto : MonoBehaviour
     public void TentarInteragir()
     {
         // 1. Se já tem um painel aberto, apertar 'E' fecha ele e avança a lógica
-        if (painelAbertoAtualmente != null)
+        if (painelAbertoAtualmente != null && Input.GetKeyDown(KeyCode.Return))
         {
             FecharPainelAberto();
             return;
@@ -50,6 +54,7 @@ public class GameManagerSecreto : MonoBehaviour
         // 2. Se não tem painel aberto, verifica se já esgotamos as mensagens de hoje
         if (jaLeuTudoHoje)
         {
+            scriptMovimentoPlayer.enabled = true;
             Debug.Log("O computador está em modo de espera. Volte depois.");
             return; // Sai da função, não faz nada
         }
@@ -78,7 +83,7 @@ public class GameManagerSecreto : MonoBehaviour
         }
         else // JÁ TERMINOU TUDO
         {
-            Debug.Log("Não há mais arquivos para ler.");
+            Debug.Log("Não há mais arquivos para ler:"+visitaAtual);
         }
     }
 
@@ -87,10 +92,10 @@ public class GameManagerSecreto : MonoBehaviour
         // Desativa a tela atual
         painelAbertoAtualmente.SetActive(false);
         painelAbertoAtualmente = null;
-        
         // Destrava o player
         if (scriptMovimentoPlayer != null) scriptMovimentoPlayer.enabled = true;
-
+        Andrew.enabled = true;
+        // DESTRAVA O PLAYER
         // --- VERIFICA SE TERMINOU A VISITA ---
 
         if (visitaAtual == 0) // Lógica especial da Visita 1 (11 telas)
@@ -123,16 +128,39 @@ public class GameManagerSecreto : MonoBehaviour
         // Se acabou de completar a Visita 4 (que agora o visitaAtual vira 4)
         if (visitaAtual == 4)
         {
-            Debug.Log("ACESSO LIBERADO. PORTA ABERTA!");
-            if (portaSecreta != null) portaSecreta.SetActive(false);
+            //Debug.Log("ACESSO LIBERADO. PORTA SECRETA ABERTA!");
+            if (portaSecreta != null) portaSecreta.SetActive(true);
+        }
+         if (visitaAtual == 1)
+        {
+     
+            if (porta1 != null) porta1.SetActive(true);
+        }
+         if (visitaAtual == 2)
+        {
+    
+            if (porta2 != null) porta2.SetActive(true);
+        }
+         if (visitaAtual == 3)
+        {
+     
+            if (porta3 != null) porta3.SetActive(true);
         }
     }
 
     void MostrarPainel(GameObject painel)
     {
+
+        if (Andrew != null){
+            
+            Andrew.enabled = false;
+            Andrew.Play("Parado");
+        }
+        if (scriptMovimentoPlayer != null) scriptMovimentoPlayer.enabled = false;
         painelAbertoAtualmente = painel;
         painel.SetActive(true);
-        if (scriptMovimentoPlayer != null) scriptMovimentoPlayer.enabled = false;
+        
+        
     }
 
     void EsconderTudo()
@@ -143,5 +171,9 @@ public class GameManagerSecreto : MonoBehaviour
         if (input1 != null) input1.SetActive(false);
         if (input2 != null) input2.SetActive(false);
         if (input3 != null) input3.SetActive(false);
+    }
+    public void habilitarAnimator()
+    {
+        //scriptMovimentoPlayer.enabled = true;
     }
 }

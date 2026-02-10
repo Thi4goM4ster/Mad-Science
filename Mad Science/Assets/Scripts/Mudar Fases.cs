@@ -20,8 +20,8 @@ public class PortaFase : MonoBehaviour
         // Verifica se quem pisou na porta foi o Jogador
         if (other.CompareTag("Player"))
         {
-            Debug.Log("A carregar a cena: " + nomeDaProximaCena);
-            SceneController.instance.NextLevel(N);
+            Debug.Log("A carregar a cena: " + nomeDaProximaCena + ", "+ N);
+            FindObjectOfType<SceneController>().NextLevel(N);
             //SceneManager.LoadScene(nomeDaProximaCena);
         }
     }

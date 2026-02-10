@@ -9,7 +9,7 @@ public class SceneController : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
+        /*if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -17,7 +17,7 @@ public class SceneController : MonoBehaviour
         else
         {
             Destroy(gameObject);
-        }
+        }*/
     }
 
     public void NextLevel(int N)
@@ -28,6 +28,7 @@ public class SceneController : MonoBehaviour
         }
         else
         {
+          
             StartCoroutine(LoadLevel(N));
         }
     }

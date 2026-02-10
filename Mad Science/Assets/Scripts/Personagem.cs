@@ -7,7 +7,7 @@ public class PlayerMovementEstados : MonoBehaviour
 
     // Variável para guardar para onde o player estava olhando por último
     // 0 = Baixo/Frente, 1 = Cima/Trás, 2 = Esquerda, 3 = Direita
-    private int ultimaDirecao = 0; 
+    //private int ultimaDirecao = 0; 
 
     void Update()
     {
@@ -25,22 +25,22 @@ public class PlayerMovementEstados : MonoBehaviour
             if (x < 0) 
             {
                 animator.Play("Andando pra esquerda");
-                ultimaDirecao = 2;
+                //ultimaDirecao = 2;
             }
             else if (x > 0)
             {
                 animator.Play("Andando pra direita");
-                ultimaDirecao = 3;
+                //ultimaDirecao = 3;
             }
             else if (y > 0)
             {
                 animator.Play("Andando pra trás");
-                ultimaDirecao = 1;
+                //ultimaDirecao = 1;
             }
             else if (y < 0)
             {
                 animator.Play("Andando pra frente");
-                ultimaDirecao = 0;
+                //ultimaDirecao = 0;
             }
         }
         else

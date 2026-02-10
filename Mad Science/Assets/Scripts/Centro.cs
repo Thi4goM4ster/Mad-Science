@@ -11,7 +11,7 @@ public class MesaFinal : MonoBehaviour
     public GameObject portaSecreta;
     public GameObject beckerComAndrew; 
 
-    private bool puzzleCompleto = false;
+    //private bool puzzleCompleto = false;
 
     private void Start()
     {

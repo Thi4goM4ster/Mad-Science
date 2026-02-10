@@ -8,6 +8,11 @@ public class ChangeScene : MonoBehaviour
     public float changeTime;
     public string sceneName;
 
+    private void Start()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+    }
     private void Update()
     {
         /*changeTime -= Time.deltaTime;

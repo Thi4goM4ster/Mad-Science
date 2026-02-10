@@ -2122,7 +2122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDaProximaCena: Sala Secreta
-  N: 0
+  N: 8
 --- !u!1 &804280784
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,7 +17,7 @@ public class SistemaSenha : MonoBehaviour
     public MonoBehaviour scriptMovimentoPlayer; 
 
     public Animator Andrew;
-    private bool PainelAberto = false;
+    //private bool PainelAberto = false;
     private void Start()
     {
         painelSenha.SetActive(false);
@@ -38,7 +38,7 @@ public class SistemaSenha : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            PainelAberto = true;
+            //PainelAberto = true;
             painelSenha.SetActive(true);
             
             // Limpa o texto anterior e foca o cursor para digitar na hora
@@ -47,8 +47,6 @@ public class SistemaSenha : MonoBehaviour
 
         if (Andrew != null){
             
-            //Andrew.SetFloat("InputX",0);
-            //Andrew.SetFloat("InputY",0);
             Andrew.enabled = false;
             Andrew.Play("Parado");
         }
@@ -87,7 +85,7 @@ public class SistemaSenha : MonoBehaviour
     void FecharPainel()
     {
         Andrew.enabled = true;
-        PainelAberto = false;
+        //PainelAberto = false;
         if (painelSenha != null)
         painelSenha.SetActive(false);
         

@@ -17,7 +17,7 @@ public class PortaPuzzleQuadros : MonoBehaviour
 
     void AbrirPorta()
     {
-        Debug.Log("PORTA DESTRANCADA!");
+        //Debug.Log("PORTA DESTRANCADA!");
         PortaPreta.SetActive(true); // A porta some (ou toca animação de abrir)
 
     }
